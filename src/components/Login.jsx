@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate , Link} from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { loginUser } from '../redux/pasteSlice';
 
@@ -88,9 +88,9 @@ const Login = () => {
         </form>
         <p className="text-xs sm:text-sm text-gray-600 text-center mt-4">
           Don&apos;t have an account?{" "}
-          <a href="./signup" className="text-blue-500 hover:underline">
+          <Link to="/signup" className="text-blue-500 hover:underline">
             Sign up
-          </a>
+          </Link>
         </p>
       </div>
     </div>
