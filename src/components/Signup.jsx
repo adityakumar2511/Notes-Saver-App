@@ -101,10 +101,10 @@ const Signup = () => {
               />
             </div>
             <div>
-              <label className="block text-lg font-medium text-gray-700 mb-1">Password</label>
+              <label className="block text-lg font-medium text-gray-700 mb-1">Confirm Password</label>
               <input
                 type="password"
-                placeholder="Enter your password"
+                placeholder="Enter your confirm password"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
                 required
